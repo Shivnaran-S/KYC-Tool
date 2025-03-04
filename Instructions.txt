@@ -21,6 +21,9 @@ git push -u origin main
 
 git clone https://github.com/your-username/your-repo-name.git
 
+Ensure that the folder is linked to the correct remote repository:	git remote -v
+
+
 1.Create a folder with the Project name
 2.Open that folder using VS Code
 
@@ -28,4 +31,16 @@ git clone https://github.com/your-username/your-repo-name.git
 
 1.Go to the parent folder in VS Code
 2. mkdir project_name
-   cd project_name
+   cd project_name
+
+3. python -m venv .venv
+4. .venv\Scripts\activate
+deactivate
+
+5. pip install django
+
+6. django-admin startproject project_name .
+7. cd project_name
+
+
+
