@@ -1,0 +1,31 @@
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+set the user.name and user.email locally for each repository. Navigate to your project folder and run:
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --global --list
+
+git credential-cache exit
+
+
+git init
+git add .
+git commit -m "Initial Commit"
+git remote add origin https://github.com/your-username/your-repo-name.git
+git push -u origin main
+
+git clone https://github.com/your-username/your-repo-name.git
+
+1.Create a folder with the Project name
+2.Open that folder using VS Code
+
+(or)
+
+1.Go to the parent folder in VS Code
+2. mkdir project_name
+   cd project_name
